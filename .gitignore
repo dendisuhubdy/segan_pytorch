@@ -1,3 +1,7 @@
+# Pretrained models 
+
+ckpt_segan+/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

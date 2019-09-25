@@ -8,6 +8,7 @@ from scipy.io import wavfile
 
 # eval expanded noisy testset with composite metrics
 #NOISY_TEST_PATH = 'data/expanded_segan1_additive/noisy_testset'
+NOISY_TEST_PATH="/Users/grokmachine/data/speech_separation/SpEAR/SpEAR-speech-database-master/data/Noisy_Recordings"
 
 def main(opts):
     NOISY_TEST_PATH = opts.test_wavs

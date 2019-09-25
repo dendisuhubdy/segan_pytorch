@@ -72,6 +72,7 @@ def main(opts):
         g_wav, g_c = segan.generate(pwav)
         out_path = os.path.join(opts.synthesis_path,
                                 tbname) 
+        print(out_path)
         if opts.soundfile:
             sf.write(out_path, g_wav, 16000)
         else:
